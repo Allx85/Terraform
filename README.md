@@ -13,10 +13,16 @@ Guiden som följts är [hashicorp guide](https://developer.hashicorp.com/terrafo
 
 * Skapa en `variables.tf` där man skapar variabler för att läsa in i `main.tf`
 
-## Bas kommandon
+## Kommandon
 
-* `terraform init` - initializing
+* `terraform init` initierar arbetskatalogen
 
-* `terraform apply` - skapar
+* `terraform validate` validerar konfigurationen"
 
-* `terraform destroy` - tar bort
+* `terraform apply` verkställer ändringarna
+
+* `terraform destroy` tar bort resurserna
+
+* `terraform show` visar aktuell state eller plan
+
+* `terraform output` visar output värden
